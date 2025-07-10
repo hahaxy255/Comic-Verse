@@ -466,7 +466,7 @@ const comics = [
     genre: ["Action", "Adventure", "Fantasy"],
     synopsis: "Naruto Uzumaki, ninja muda yang bercita-cita menjadi Hokage, pemimpin desanya. Cerita mengikuti perjalanannya dan teman-temannya dalam dunia ninja.",
     chapters: [generatePlaceholderChapter("Uzumaki Naruto", 4)],
-    updatedAt: "2023-07-01"
+    updatedAt: "2022-07-01"
   },
   // Tambahkan komik lain di sini dengan pola yang sama...
 ];
