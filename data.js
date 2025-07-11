@@ -102,10 +102,10 @@ const comics = [
     synopsis: "Wakana Gojou adalah anak SMA berusia lima belas tahun yang mengalami trauma sosial di masa lalu karena gairahnya. Insiden itu meninggalkan bekas padanya yang membuatnya menjadi pertapa sosial. Sampai suatu hari ia bertemu dengan Kitagawa yang merupakan gyaru yang ramah, yang sepenuhnya bertolak belakang dengannya. Mereka segera berbagi gairah mereka dengan satu sama lain yang mengarah ke hubungan aneh mereka.",
     chapters: Array.from({ length: 115 }, (_, i) => ({
   id: i + 1,
-  pages: 48,
+  pages: 28,
   images: generateImageUrls(
-    `https://sv2.imgkc2.my.id/wp-content/img/M/My_Bias_Gets_on_the_Last_Train/${String(i + 1).padStart(3, '0')}`,
-    48,
+    `https://sv1.imgkc1.my.id/wp-content/img/S/Sono_Bisque_Doll_wa_Koi_wo_suru/${String(i + 1).padStart(3, '0')}`,
+    28,
     '',
     3
   )
