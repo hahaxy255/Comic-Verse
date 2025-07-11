@@ -510,6 +510,40 @@ const comics = [
     ],
     updatedAt: "2023-03-17"
 },
+    {
+    id: 5139240,
+    title: "The Genius Decided to Live an Ordinary Life",
+    author: "Jasone",
+    country: "kr",
+    cover: "https://komikcast.li/wp-content/uploads/2024/12/Genius.jpg",
+    rating: 8.2,
+    genre: ["Drama", "Fantasy", "Slice of Life"],
+    synopsis: "Tokoh utama dari kehidupan sukses yang diakui oleh publik, 'Son Jinhyuk'. Namun, Jinhyuk hanya ingin menjalani kehidupan normal bersama keluarga tercintanya, dan dia tidak bisa menyembunyikan hatinya yang kesepian karena dia tidak bisa. Suatu hari, saya terbangun di sebuah ...",
+    chapters: [
+        // Chapter 1-10
+        ...Array.from({ length: 9 }, (_, i) => ({
+            id: i + 1,
+            pages: 22,
+            images: generateImageUrls(
+                `https://sv1.imgkc1.my.id/wp-content/img/T/The_Genius_Decided_to_Live_an_Ordinary_Life/${String(i + 1).padStart(3, '0')}`,
+                26,  // Diperbaiki: jumlah gambar harus 28
+                '',
+                2    // Padding 3 digit (011, 012, dst)
+            )
+        })),
+        ...Array.from({ length: 24 }, (_, i) => ({
+            id: i + 10,
+            pages: 35,
+            images: generateImageUrls(
+                `https://sv1.imgkc1.my.id/wp-content/img/T/The_Genius_Decided_to_Live_an_Ordinary_Life/${String(i + 10).padStart(3, '0')}`,
+                22,  // Diperbaiki: jumlah gambar harus 28
+                '',
+                3    // Padding 3 digit (011, 012, dst)
+            )
+        }))
+    ],
+    updatedAt: "2025-07-10"
+},
   // Komik lainnya menggunakan pola yang sama
   {
     id: 2,
