@@ -438,7 +438,7 @@ const comics = [
     country: "jp",
     cover: "https://komikcast.li/wp-content/uploads/2025/05/nR2aBm.jpg",
     rating: 8.2,
-    genre: ["Comedy", "Drama", "Romance"],
+    genre: ["Comedy", "Drama", "Romance", "School"],
     synopsis: "Rintaro, murid kelas dua di Chidori yang memiliki wajah garang namun hati yang lembut, membantu di toko roti keluarganya ketika dia bertemu dengan seorang gadis bernama Kaoruko. Keduanya langsung akrab, namun kedamaian bahagia ini segera terganggu ketika Rintaro mengetahui bahwa Kaoruko sebenarnya adalah siswi di Kikyo. Lebih buruk lagi, dia tidak sepertinya menyadari betapa besar masalahnya ini! Akankah kedua orang ini mampu membentuk jalan mereka sendiri, dan menghindari perangkap (secara metaforis dan harfiah) yang diletakkan oleh teman sekelas mereka?",
     chapters: [
         // Chapter 1-10
