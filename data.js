@@ -431,6 +431,61 @@ const comics = [
     ],
     updatedAt: "2025-07-04"
 },
+    {
+    id: 5426302,
+    title: "Kaoru Hana wa Rin to Saku Bahasa",
+    author: "MIKAMI Saka",
+    country: "jp",
+    cover: "https://komikcast.li/wp-content/uploads/2025/05/nR2aBm.jpg",
+    rating: 8.2,
+    genre: ["Comedy", "Drama", "Romance"],
+    synopsis: "Rintaro, murid kelas dua di Chidori yang memiliki wajah garang namun hati yang lembut, membantu di toko roti keluarganya ketika dia bertemu dengan seorang gadis bernama Kaoruko. Keduanya langsung akrab, namun kedamaian bahagia ini segera terganggu ketika Rintaro mengetahui bahwa Kaoruko sebenarnya adalah siswi di Kikyo. Lebih buruk lagi, dia tidak sepertinya menyadari betapa besar masalahnya ini! Akankah kedua orang ini mampu membentuk jalan mereka sendiri, dan menghindari perangkap (secara metaforis dan harfiah) yang diletakkan oleh teman sekelas mereka?",
+    chapters: [
+        // Chapter 1-10
+        ...Array.from({ length: 139 }, (_, i) => ({
+            id: i + 1,
+            pages: 22,
+            images: generateImageUrls(
+                `https://sv2.imgkc2.my.id/wp-content/img/K/Kaoru_Hana_wa_Rin_to_Saku/${String(i + 1).padStart(3, '0')}`,
+                22,  // Diperbaiki: jumlah gambar harus 28
+                '',
+                3    // Padding 3 digit (001, 002, dst)
+            )
+        })),
+        // Chapter 1341-149
+        ...Array.from({ length: 6 }, (_, i) => ({
+            id: i + 140,
+            pages: 22,
+            images: generateImageUrls(
+                `https://sv2.imgkc2.my.id/wp-content/img/K/Kaoru_Hana_wa_Rin_to_Saku/${String(i + 140).padStart(3, '0')}f`,
+                22,  // Diperbaiki: jumlah gambar harus 28
+                '',
+                3    // Padding 3 digit (011, 012, dst)
+            )
+        })),
+        ...Array.from({ length: 4 }, (_, i) => ({
+            id: i + 146,
+            pages: 22,
+            images: generateImageUrls(
+                `https://sv2.imgkc2.my.id/wp-content/img/K/Kaoru_Hana_wa_Rin_to_Saku/${String(i + 146).padStart(3, '0')}`,
+                22,  // Diperbaiki: jumlah gambar harus 28
+                '',
+                3    // Padding 3 digit (011, 012, dst)
+            )
+        })),
+        ...Array.from({ length: 2 }, (_, i) => ({
+            id: i + 150,
+            pages: 22,
+            images: generateImageUrls(
+                `https://sv2.imgkc2.my.id/wp-content/img/K/Kaoru_Hana_wa_Rin_to_Saku/${String(i + 150).padStart(3, '0')}`,
+                22,  // Diperbaiki: jumlah gambar harus 28
+                '',
+                2    // Padding 3 digit (011, 012, dst)
+            )
+        }))
+    ],
+    updatedAt: "2025-07-11"
+},
 {
     id: 5639340,
     title: "Kimetsu no Yaiba",
