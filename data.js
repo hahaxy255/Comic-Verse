@@ -7,14 +7,9 @@ function generateImageUrls(baseUrl, count, prefix = '', padding = 1) {
 }
 
 // Fungsi untuk chapter Ao no Hako
-const aoNoHakoChapters = [
-  {
-    id: 1,
-    pages: 56,
-    images: generateImageUrls('https://img.komiku.org/uploads/2443119', 56, '', 0)
-  },
-  ...Array.from({ length: 200 }, (_, i) => ({
-    id: i + 2,
+const aoNoHakoChapters = [  
+  ...Array.from({ length: 201 }, (_, i) => ({
+    id: i + 1,
     pages: 27,
     images: generateImageUrls(
       `https://sv3.imgkc3.my.id/wp-content/img/A/Ao-no-Hako/${String(i + 2).padStart(3, '0')}`,
