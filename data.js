@@ -58,7 +58,7 @@ const comics = [
     rating: 8.8,
     genre: ["Comedy", "Drama", "Music", "Romance"],
     synopsis: "“Aku bertemu dengannya lagi di kereta terakhir hari ini, andai saja aku bisa berbicara dengannya!” Mahasiswa Lee Yeo-woon bekerja lembur dan naik kereta terakhir setiap hari. Shin Hae-in, seorang wanita membawa gitar, yang selalu kita temui. Kedua orang tersebut, yang bertemu seolah-olah secara kebetulan atau takdir, mengetahui bahwa favorit masing-masing adalah musisi indie “Long Afternoon” dan menjadi lebih dekat.",
-    chapters: Array.from({ length: 35 }, (_, i) => ({
+    chapters: Array.from({ length: 36 }, (_, i) => ({
   id: i + 1,
   pages: 28,
   images: generateImageUrls(
@@ -68,7 +68,7 @@ const comics = [
     3
   )
 })),
-    updatedAt: "2025-07-10"
+    updatedAt: "2025-07-17"
   },
   {
     id: 5937365,
@@ -79,7 +79,7 @@ const comics = [
     rating: 8.4,
     genre: ["Comedy", "Drama", "Romance"],
     synopsis: "Kisah agen mata-mata bernama Twilight yang harus menjalankan misi penting untuk menjaga perdamaian antar negara, Westalis dan Ostania. Untuk mencapai misinya, ia membentuk keluarga palsu: seorang istri bernama Yor dan seorang anak perempuan bernama Anya.",
-    chapters: Array.from({ length: 119 }, (_, i) => ({
+    chapters: Array.from({ length: 200 }, (_, i) => ({
   id: i + 1,
   pages: 8,
   images: generateImageUrls(
@@ -89,7 +89,7 @@ const comics = [
     3
   )
 })),
-    updatedAt: "2025-07-01"
+    updatedAt: "2025-07-12"
   },
   {
     id: 5337945,
@@ -134,7 +134,7 @@ const comics = [
             )
         })),
         // Chapter 11-21
-        ...Array.from({ length: 12 }, (_, i) => ({
+        ...Array.from({ length: 13 }, (_, i) => ({
             id: i + 10,
             pages: 28,
             images: generateImageUrls(
@@ -145,7 +145,7 @@ const comics = [
             )
         }))
     ],
-    updatedAt: "2025-07-10"
+    updatedAt: "2025-07-13"
 },
 {
     id: 5631645,
@@ -179,7 +179,7 @@ const comics = [
                 3    // Padding 3 digit (011, 012, dst)
             )
         })),
-        ...Array.from({ length: 7 }, (_, i) => ({
+        ...Array.from({ length: 8 }, (_, i) => ({
             id: i + 40,
             pages: 28,
             images: generateImageUrls(
@@ -190,7 +190,7 @@ const comics = [
             )
         }))
     ],
-    updatedAt: "2025-07-08"
+    updatedAt: "2025-07-15"
 },
 {
     id: 5069815,
@@ -203,7 +203,7 @@ const comics = [
     synopsis: "Gu Yangchun, orang yang mengkhianati sekte-sekte ortodoks, menjadi Demonic Human dibawah Heavenly Demon. Hidup sebagai Demonic Human, dia menjalani kehidupan yang penuh penyesalan. Dia melakukan banyak kejahatan sampai tak terhitung jumlahnya bukan atas kemauannya sendiri, tapi karena perintah dari Heavenly Demon. Dalam perang besar Ortodoks melawan Demon, berkat Wi Seol-Ah yang berhasil menebas Heavenly Demon yang sudah membuat 3 petinggi pasukan Ortodoks bertekuk lutut. Gu Yangchun ditawan oleh pasukan Ortodoks dan menderita karena dosa-dosanya. Dengan moral yang masih tersisa di dalam dirinya, dia mati dengan memberikan informasi kepada Wi Seol-Ah tentang Kultus Demon karena ikatan yang diberikan oleh Heavenly Demon kepadanya. Setelah itu, karena beberapa alasan, Gu Yangchun mengalami regresi menuju waktu pada saat dia pertama kali bertemu dengan Wi Seol-Ah. Menyadari bahwa regresi itu bukanlah mimpi, Gu Yangchun memutuskan untuk menjalani kehidupan yang tenang. Akan tetapi, berbagai ikatan buruk dari kehidupan sebelumnya mulai mendekat, satu per satu.",
     chapters: [
         // Chapter 1-10
-        ...Array.from({ length: 62 }, (_, i) => ({
+        ...Array.from({ length: 63 }, (_, i) => ({
             id: i + 1,
             pages: 28,
             images: generateImageUrls(
@@ -214,7 +214,7 @@ const comics = [
             )
         }))
     ],
-    updatedAt: "2025-07-10"
+    updatedAt: "2025-07-16"
 },
   {
     id: 5137705,
@@ -418,7 +418,7 @@ const comics = [
             )
         })),
         // Chapter 11-21
-        ...Array.from({ length: 32 }, (_, i) => ({
+        ...Array.from({ length: 33 }, (_, i) => ({
             id: i + 51,
             pages: 40,
             images: generateImageUrls(
@@ -429,7 +429,7 @@ const comics = [
             )
         }))
     ],
-    updatedAt: "2025-07-04"
+    updatedAt: "2025-07-13"
 },
     {
     id: 5426302,
@@ -473,7 +473,7 @@ const comics = [
                 3    // Padding 3 digit (011, 012, dst)
             )
         })),
-        ...Array.from({ length: 2 }, (_, i) => ({
+        ...Array.from({ length: 3 }, (_, i) => ({
             id: i + 150,
             pages: 22,
             images: generateImageUrls(
@@ -484,7 +484,7 @@ const comics = [
             )
         }))
     ],
-    updatedAt: "2025-07-11"
+    updatedAt: "2025-07-19"
 },
 {
     id: 5639340,
@@ -531,7 +531,7 @@ const comics = [
                 2    // Padding 3 digit (011, 012, dst)
             )
         })),
-        ...Array.from({ length: 24 }, (_, i) => ({
+        ...Array.from({ length: 25 }, (_, i) => ({
             id: i + 10,
             pages: 35,
             images: generateImageUrls(
@@ -542,7 +542,7 @@ const comics = [
             )
         }))
     ],
-    updatedAt: "2025-07-10"
+    updatedAt: "2025-07-17"
 },
   // Komik lainnya menggunakan pola yang sama
   {
