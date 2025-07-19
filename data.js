@@ -13,7 +13,7 @@ const aoNoHakoChapters = [
     pages: 56,
     images: generateImageUrls('https://img.komiku.org/uploads/2443119', 56, '', 0)
   },
-  ...Array.from({ length: 199 }, (_, i) => ({
+  ...Array.from({ length: 200 }, (_, i) => ({
     id: i + 2,
     pages: 27,
     images: generateImageUrls(
@@ -47,7 +47,7 @@ const comics = [
     genre: ["Action", "Drama", "Romance", "School", "Sports"],
     synopsis: "Taiki Inomata, seorang siswa SMA yang tergabung dalam klub bulu tangkis, dan diam-diam menyukai seniornya, Chinatsu Kano, seorang bintang tim basket putri.",
     chapters: aoNoHakoChapters,
-    updatedAt: "2025-07-10"
+    updatedAt: "2025-07-13"
   },
   {
     id: 5637345,
