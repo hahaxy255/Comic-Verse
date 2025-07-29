@@ -249,7 +249,7 @@
             position: absolute;
             top: 10px;
             right: 10px;
-            background: rgba(228, 176, 18, 0.8);
+            background: rgba(0, 0, 0, 0.8);
             box-shadow: 0 4px 8px var(--shadow);
             color: white;
             padding: 4px 6px;
@@ -260,7 +260,7 @@
         }
         
         .comic-rating i {
-        	color: #FFD700;
+        	color: #f39c12;
         }
 
         .comic-cover {
