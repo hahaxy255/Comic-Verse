@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sepatu Sneakers Modern",
+      "price": 450000,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1170&q=80",
+      "description": "Sepatu sneakers modern dengan desain kekinian dan nyaman digunakan sehari-hari."
+    },
+    {
+      "id": 2,
+      "name": "Smartphone XYZ",
+      "price": 3200000,
+      "category": "Elektronik",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1170&q=80",
+      "description": "Smartphone dengan spesifikasi tinggi, kamera jernih, dan baterai tahan lama."
+    },
+    {
+      "id": 3,
+      "name": "Tas Ransel Trendy",
+      "price": 275000,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=687&q=80",
+      "description": "Tas ransel trendy dengan banyak kompartemen dan bahan waterproof."
+    },
+    {
+      "id": 4,
+      "name": "Headphone Wireless",
+      "price": 650000,
+      "category": "Elektronik",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1170&q=80",
+      "description": "Headphone wireless dengan kualitas suara tinggi dan noise cancellation."
+    },
+    {
+      "id": 5,
+      "name": "Buku Planner 2023",
+      "price": 85000,
+      "category": "Kantor",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1074&q=80",
+      "description": "Buku planner untuk mengatur jadwal dan kegiatan Anda sepanjang tahun 2023."
+    },
+    {
+      "id": 6,
+      "name": "Botol Minum Stainless",
+      "price": 120000,
+      "category": "Lifestyle",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=687&q=80",
+      "description": "Botol minum stainless steel ramah lingkungan yang menjaga suhu minuman."
+    },
+    {
+      "id": 7,
+      "name": "Kamera DSLR Profesional",
+      "price": 8500000,
+      "category": "Elektronik",
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=764&q=80",
+      "description": "Kamera DSLR profesional dengan sensor full-frame dan lensa kit 18-55mm."
+    },
+    {
+      "id": 8,
+      "name": "Jam Tangan Elegant",
+      "price": 750000,
+      "category": "Aksesoris",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1099&q=80",
+      "description": "Jam tangan elegant dengan tali kulit asli dan mesin quartz yang akurat."
+    },
+    {
+      "id": 9,
+      "name": "Kacamata Hitam Style",
+      "price": 285000,
+      "category": "Aksesoris",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=1160&q=80",
+      "description": "Kacamata hitam dengan perlindungan UV400 dan desain yang stylish."
+    },
+    {
+      "id": 10,
+      "name": "Speaker Bluetooth Portable",
+      "price": 550000,
+      "category": "Elektronik",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=1331&q=80",
+      "description": "Speaker Bluetooth portable dengan suara jernih dan baterai tahan lama."
+    }
+  ]
+}
